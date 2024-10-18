@@ -1,0 +1,16 @@
+
+// base
+@import url(./base/reset.scss);
+@import url(./base/typography.scss);
+
+// components
+@import url(./components/boxesncards.scss);
+@import url(./components/sections.scss);
+
+// Layout
+@import url(./layout/header.scss);
+@import url(./layout/main.scss);
+
+// utilities
+@import url(./utilities/mixin.scss);
+@import url(./utilities/variable.scss);
