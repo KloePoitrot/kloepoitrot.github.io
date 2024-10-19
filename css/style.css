@@ -15,15 +15,17 @@
 body {
   background: linear-gradient(130deg, var(--gradient1) 0%, var(--gradient2) 50%, var(--gradient3) 100%);
   background-attachment: fixed;
-  font-family: "Kanit", sans-serif;
-  font-weight: 200;
+  margin: 0;
+}
+
+main {
   max-width: var(--screenwidth);
   margin: 0 auto;
 }
 
 .flex {
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 ul {
@@ -32,7 +34,43 @@ ul {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+}
+
+.about img {
+  width: 40%;
+}
+.about .box {
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.about .box .box-color {
+  background: var(--main);
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
+}
+.about .box .box-color-left {
+  border-left: 2.5rem solid var(--gradient1);
+  transition: ease-in 0.3s;
+}
+.about .box .box-color-left:hover {
+  border-left: 2.5rem solid var(--gradient2);
+  transition: ease-out 0.05s;
+}
+.about .box .box-color-right {
+  border-right: 2.5rem solid var(--gradient3);
+  transition: ease-in 0.3s;
+}
+.about .box .box-color-right:hover {
+  border-right: 2.5rem solid var(--gradient2);
+  transition: ease-out 0.05s;
 }
 
 .section {
@@ -52,25 +90,30 @@ img {
 }
 .section-transparent .title-text {
   color: var(--main);
+  order: 2;
 }
 .section-transparent .title-decoration {
   background: var(--main);
+  order: 1;
 }
 
 .title {
   display: flex;
   align-items: center;
-  gap: 1rem;
 }
 .title-text {
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: 20;
   letter-spacing: 5px;
+  margin: 2rem;
+  margin-top: 0;
 }
 .title-decoration {
   height: 5px;
   width: 100%;
+  margin: 2rem;
+  margin-top: 0;
   flex: 1;
 }
 

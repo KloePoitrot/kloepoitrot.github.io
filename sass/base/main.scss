@@ -1,12 +1,15 @@
+
 body{
     @include gradientBase();
-    font-family: "Kanit", sans-serif;
-    font-weight: 200;
+    margin:0
+}
+main{
+
     max-width:var(--screenwidth);
     margin:0 auto;
 }
 
 .flex{
     display:flex;
-    gap:2rem
+    gap:4rem
 }

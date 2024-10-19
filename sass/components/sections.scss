@@ -13,9 +13,11 @@
         background:transparent;
         .title-text{
             color:var(--main);
+            order:2
         }
         .title-decoration{
             background:var(--main);
+            order:1
         }
     }
 }
@@ -24,16 +26,19 @@
 .title{
     display:flex;
     align-items: center;
-    gap:1rem;
     &-text{
         text-transform: uppercase;
         font-size:2rem;
         font-weight:20;
         letter-spacing: 5px;
+        margin: 2rem;
+        margin-top:0;
     }
     &-decoration{
         height: 5px;
         width:100%;
+        margin: 2rem;
+        margin-top:0;
         flex:1;
     }
 }
