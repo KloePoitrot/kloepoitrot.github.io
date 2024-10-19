@@ -21,6 +21,11 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+  gap: 2rem;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -28,6 +33,45 @@ ul {
 
 img {
   max-width: 100%;
+}
+
+.section {
+  padding: 4rem;
+}
+.section-white {
+  background: var(--main);
+}
+.section-white .title-text {
+  color: var(--gradient1);
+}
+.section-white .title-decoration {
+  background: linear-gradient(90deg, var(--gradient1) 0%, var(--gradient2) 50%, var(--gradient3) 100%);
+}
+.section-transparent {
+  background: transparent;
+}
+.section-transparent .title-text {
+  color: var(--main);
+}
+.section-transparent .title-decoration {
+  background: var(--main);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.title-text {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 20;
+  letter-spacing: 5px;
+}
+.title-decoration {
+  height: 5px;
+  width: 100%;
+  flex: 1;
 }
 
 .header {

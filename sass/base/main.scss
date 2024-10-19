@@ -5,3 +5,8 @@ body{
     max-width:var(--screenwidth);
     margin:0 auto;
 }
+
+.flex{
+    display:flex;
+    gap:2rem
+}

@@ -1,0 +1,39 @@
+.section{
+    padding:4rem;
+    &-white {
+        background:var(--main);
+        .title-text{
+            color:var(--gradient1);
+        }
+        .title-decoration{
+            background: linear-gradient(90deg, var(--gradient1) 0%, var(--gradient2) 50%, var(--gradient3) 100%);
+        }
+    }
+    &-transparent {
+        background:transparent;
+        .title-text{
+            color:var(--main);
+        }
+        .title-decoration{
+            background:var(--main);
+        }
+    }
+}
+
+// section title
+.title{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    &-text{
+        text-transform: uppercase;
+        font-size:2rem;
+        font-weight:20;
+        letter-spacing: 5px;
+    }
+    &-decoration{
+        height: 5px;
+        width:100%;
+        flex:1;
+    }
+}
