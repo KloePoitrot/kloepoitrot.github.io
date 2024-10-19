@@ -3,8 +3,8 @@ body{
     @include gradientBase();
     margin:0
 }
-main{
-    max-width:var(--screenwidth);
+.max-width{
+    max-width:1300px;
     margin:0 auto;
 }
 
