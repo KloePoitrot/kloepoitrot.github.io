@@ -18,8 +18,7 @@
                 "title": "Kasa",
                 "description": "Projet du parcours Integrateur Web de OpenClassrooms",
                 "img": "../img/Kasa.png",
-                "repo": "https://github.com/KloePoitrot/JS-RockPaperScissors",
-                "gitpage": "https://kloepoitrot.github.io/JS-RockPaperScissors/",
+                "repo": "https://github.com/KloePoitrot/REACT-Kasa",
                 "category": [
                     "HTML/CSS",
                     "React"
