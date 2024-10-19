@@ -1,0 +1,26 @@
+.card{
+    padding: 1rem;
+    height: auto;
+    @include btnAnim(end);
+    a {
+        color:#000;
+        text-decoration: none;
+    }
+    &:hover{
+        @include btnAnim(start);
+    }
+    &-grey{
+        background: var(--second);
+        background-color: var(--second);
+        box-shadow: inset var(--shadow);
+        &:hover{
+            box-shadow: none;
+            background: var(--main);
+        }
+    }
+    
+    &-white{
+        background: var(--second);
+        box-shadow: var(--shadow);
+    }
+}

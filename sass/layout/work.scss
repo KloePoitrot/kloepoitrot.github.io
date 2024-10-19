@@ -1,0 +1,50 @@
+.works{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+}
+
+.work{
+    &-img {
+        height: 200px;
+        object-fit: cover;
+    }
+    &-category{
+        margin:-1.5rem .5rem -1rem .5rem;
+        display: flex;
+        gap:.25rem;
+        &-btn{
+            font-size:.75rem;
+            padding:.25rem .5rem;
+            background:var(--gradient2);
+            color:var(--main)
+        }
+    }
+    &-content{
+        padding:0 1rem;
+        &-title{
+            color:var(--gradient3);
+        }
+        &-text{
+            height:65px;
+            overflow-y: auto;
+            scrollbar-width: none;
+        }
+    }
+}
+
+.visitButton{
+    & p{
+        background:var(--gradient3);
+        color:var(--main);
+        padding:.5rem 1rem;
+        text-decoration: none;
+        transition: ease-out .5s;
+        margin:0;
+        @include btnAnim(end);
+        &:hover{
+            background:var(--gradient1);
+            @include btnAnim(start)
+        }
+    }
+}

@@ -23,9 +23,9 @@ main {
   margin: 0 auto;
 }
 
-.flex {
-  display: flex;
-  gap: 4rem;
+.grid {
+  display: grid;
+  gap: 2rem;
 }
 
 ul {
@@ -42,35 +42,30 @@ body {
   font-weight: 200;
 }
 
-.about img {
-  width: 40%;
+.card {
+  padding: 1rem;
+  height: auto;
+  transition: ease-in 0.3s;
 }
-.about .box {
-  width: 60%;
-  margin: auto;
-  margin-top: 1.5rem;
+.card a {
+  color: #000;
+  text-decoration: none;
 }
-.about .box .box-color {
+.card:hover {
+  transition: ease-out 0.05s;
+}
+.card-grey {
+  background: var(--second);
+  background-color: var(--second);
+  box-shadow: inset var(--shadow);
+}
+.card-grey:hover {
+  box-shadow: none;
   background: var(--main);
-  padding: 0.5rem 1.5rem;
-  margin-bottom: 1.5rem;
+}
+.card-white {
+  background: var(--second);
   box-shadow: var(--shadow);
-}
-.about .box .box-color-left {
-  border-left: 2.5rem solid var(--gradient1);
-  transition: ease-in 0.3s;
-}
-.about .box .box-color-left:hover {
-  border-left: 2.5rem solid var(--gradient2);
-  transition: ease-out 0.05s;
-}
-.about .box .box-color-right {
-  border-right: 2.5rem solid var(--gradient3);
-  transition: ease-in 0.3s;
-}
-.about .box .box-color-right:hover {
-  border-right: 2.5rem solid var(--gradient2);
-  transition: ease-out 0.05s;
 }
 
 .section {
@@ -117,6 +112,41 @@ body {
   flex: 1;
 }
 
+.about {
+  display: flex;
+  gap: 4rem;
+}
+.about img {
+  width: 40%;
+}
+.about .box {
+  width: 60%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.about .box .box-color {
+  background: var(--main);
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow);
+}
+.about .box .box-color-left {
+  border-left: 2.5rem solid var(--gradient1);
+  transition: ease-in 0.3s;
+}
+.about .box .box-color-left:hover {
+  border-left: 2.5rem solid var(--gradient2);
+  transition: ease-out 0.05s;
+}
+.about .box .box-color-right {
+  border-right: 2.5rem solid var(--gradient3);
+  transition: ease-in 0.3s;
+}
+.about .box .box-color-right:hover {
+  border-right: 2.5rem solid var(--gradient2);
+  transition: ease-out 0.05s;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -144,6 +174,53 @@ body {
 }
 .header .header-link:hover {
   background: var(--gradient2);
+  transition: ease-out 0.05s;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.work-img {
+  height: 200px;
+  object-fit: cover;
+}
+.work-category {
+  margin: -1.5rem 0.5rem -1rem 0.5rem;
+  display: flex;
+  gap: 0.25rem;
+}
+.work-category-btn {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background: var(--gradient2);
+  color: var(--main);
+}
+.work-content {
+  padding: 0 1rem;
+}
+.work-content-title {
+  color: var(--gradient3);
+}
+.work-content-text {
+  height: 65px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.visitButton p {
+  background: var(--gradient3);
+  color: var(--main);
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: ease-out 0.5s;
+  margin: 0;
+  transition: ease-in 0.3s;
+}
+.visitButton p:hover {
+  background: var(--gradient1);
   transition: ease-out 0.05s;
 }
 
