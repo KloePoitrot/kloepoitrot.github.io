@@ -58,5 +58,83 @@
                     "Python"
                 ]
             }
+        ],
+    "skills":
+        [
+            {
+                "developpment": [
+                    {
+                        "id":0,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "HTML/CSS",
+                        "rating": 5
+                    },
+                    {
+                        "id":1,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Javascript",
+                        "rating": 4
+                    },
+                    {
+                        "id":2,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "React + Vite",
+                        "rating": 4
+                    },
+                    {
+                        "id":3,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Python",
+                        "rating": 3
+                    },
+                    {
+                        "id":4,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "PHP",
+                        "rating": 2
+                    }
+                ],
+                "design": [
+                    {
+                        "id":0,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Clip Studio Paint",
+                        "rating": 5
+                    },
+                    {
+                        "id":1,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Photoshop",
+                        "rating": 4
+                    },
+                    {
+                        "id":2,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Figma",
+                        "rating": 4
+                    }
+                ],
+                "autre": [
+                    {
+                        "id":0,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Github",
+                        "rating": 4
+                    },
+                    
+                    {
+                        "id":1,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Trello",
+                        "rating": 4
+                    },
+                    {
+                        "id":2,
+                        "img": "../img/competenceIcon/ps.png",
+                        "title": "Notion",
+                        "rating": 3
+                    }
+                ]
+            }
         ]
 }

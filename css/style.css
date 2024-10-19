@@ -173,6 +173,10 @@ body {
   color: var(--gradient2);
 }
 
+.box-color-right .competences {
+  justify-content: flex-end;
+}
+
 .header {
   position: sticky;
   top: 0;
