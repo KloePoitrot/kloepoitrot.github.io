@@ -3,10 +3,10 @@
         [
             {
                 "id": 0,
-                "title": "Test 1",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam nisi possimus id vitae dignissimos dolorum hic neque modi non, quaerat, aliquid obcaecati eum blanditiis eveniet quisquam soluta tempora itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, necessitatibus ea illum voluptates sint officiis optio accusamus minima ipsa eaque culpa laudantium, omnis in animi eum? Aut vel fuga dolorem?",
+                "title": "Dream Fragment",
+                "description": "[En cours de dev] - Dream fragment est un logiciel de worldbuilding et storytelling. Il a été créer pour répondre a mes propre besoin d'organisation.",
                 "img": "https://images.unsplash.com/photo-1630345093271-5fda89675b5d?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                "repo": "https://github.com/KloePoitrot/Countdown",
+                "repo": "https://github.com/KloePoitrot/ELECTRON-REACT-Dream-Fragments",
                 "category": [
                     "react", 
                     "electron",
@@ -15,14 +15,48 @@
             },
             {
                 "id": 1,
-                "title": "Countdown - Projet Frontend Mentor challenges",
-                "description": "Hello",
-                "img": "../img/countdown.png",
-                "repo": "https://github.com/KloePoitrot/Countdown",
-                "gitpage": "https://github.com/KloePoitrot/kloepoitrot.github.io",
+                "title": "Kasa",
+                "description": "Projet du parcours Integrateur Web de OpenClassrooms",
+                "img": "../img/kasa.png",
+                "repo": "https://github.com/KloePoitrot/JS-RockPaperScissors",
+                "gitpage": "https://kloepoitrot.github.io/JS-RockPaperScissors/",
+                "category": [
+                    "HTML/CSS",
+                    "React"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Rock, Paper Scissors!",
+                "description": "[Site en Anglais] - Petit projet fait sous javascript. Ce site vous permet de jouer a ''Pierre, Feuille, Ciseaux!'' accompagné de sons et d'une possiblité d'enregistrer votre score! Vous pouvez choisir le nombre de points par partie, et également jouer contre un bot, ou avec un ami!",
+                "img": "../img/RPCimg.png",
+                "repo": "https://github.com/KloePoitrot/JS-RockPaperScissors",
+                "gitpage": "https://kloepoitrot.github.io/JS-RockPaperScissors/",
                 "category": [
                     "HTML/CSS",
                     "Javascript"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Countdown",
+                "description": "[Page en anglais] - Une solution pour le 'Launch countdown timer challenge' de Frontend Mentor",
+                "img": "../img/countdown.png",
+                "repo": "https://github.com/KloePoitrot/Countdown",
+                "gitpage": "https://kloepoitrot.github.io/Countdown/",
+                "category": [
+                    "HTML/CSS",
+                    "Javascript"
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Pokedex",
+                "description": "Un pokedex codé sous python a compléter soi-même! Le logiciel possède déja 6 pokémons.",
+                "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/640px-International_Pok%C3%A9mon_logo.svg.png",
+                "repo": "https://github.com/KloePoitrot/PYTHON-Pokedex",
+                "category": [
+                    "Python"
                 ]
             }
         ]
