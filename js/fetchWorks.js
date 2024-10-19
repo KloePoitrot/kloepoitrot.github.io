@@ -1,4 +1,4 @@
-async function fetchJSONData(){
+async function fetchWorkList(){
     fetch("../json/data.json")
     .then(async (data) => {
         if (data.ok) {
@@ -43,4 +43,4 @@ function displayRepos(data){
     }
 }
 
-fetchJSONData()
+fetchWorkList()

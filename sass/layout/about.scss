@@ -7,29 +7,5 @@
     }
     .box{
         width:60%;
-        margin:auto;
-        margin-top: 1.5rem;
-        .box-color{
-            background:var(--main);
-            padding:.5rem 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: var(--shadow);
-            &-left{
-                border-left: 2.5rem solid var(--gradient1);
-                    @include btnAnim(end);
-                &:hover{
-                    border-left: 2.5rem solid var(--gradient2);
-                    @include btnAnim(start);
-                }
-            }
-            &-right{
-                border-right: 2.5rem solid var(--gradient3);
-                @include btnAnim(end);
-                &:hover{
-                    border-right: 2.5rem solid var(--gradient2);
-                    @include btnAnim(start)
-                }
-            }
-        }
     }
 }

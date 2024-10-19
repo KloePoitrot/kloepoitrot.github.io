@@ -4,13 +4,11 @@ body{
     margin:0
 }
 main{
-
     max-width:var(--screenwidth);
     margin:0 auto;
 }
 
 .grid{
     display:grid;
-
     gap:2rem
 }

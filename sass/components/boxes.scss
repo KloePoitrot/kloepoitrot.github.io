@@ -1,0 +1,33 @@
+.box{
+    margin:auto;
+    margin-top: 1.5rem;
+    .box-color{
+        background:var(--main);
+        padding:.5rem 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: var(--shadow);
+        &-title{
+            font-weight: 600;
+            color:var(--gradient3)
+        }
+        &-left{
+            border-left: 2.5rem solid var(--gradient1);
+                @include btnAnim(end);
+            &:hover{
+                border-left: 2.5rem solid var(--gradient2);
+                @include btnAnim(start);
+            }
+        }
+        &-right{
+            border-right: 2.5rem solid var(--gradient3);
+            @include btnAnim(end);
+            & .box-color-title{
+                text-align: right;
+            }
+            &:hover{
+                border-right: 2.5rem solid var(--gradient2);
+                @include btnAnim(start)
+            }
+        }
+    }
+}
