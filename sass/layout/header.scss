@@ -1,0 +1,29 @@
+.header{
+    position:sticky;
+    top:0;
+    background:var(--main);
+    padding:.75rem 2.5rem;
+    box-shadow: var(--shadow);
+    .header-nav{
+        display: flex;
+        position:sticky;
+        flex-direction: row;
+        gap: 1rem;
+        margin: 1.5rem 0 -1.5rem 0;
+        list-style: none;
+    }
+    .header-link{
+        background:var(--gradient3);
+        color:var(--main);
+        text-decoration: none;
+        padding:.5rem 1rem;
+        box-shadow: var(--shadow);
+        color:var(--main);
+        text-decoration: none;
+        @include btnAnim(end);
+        &:hover{
+            background:var(--gradient2);
+            @include btnAnim(start)
+        }
+    }
+}

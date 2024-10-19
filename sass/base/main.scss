@@ -1,0 +1,7 @@
+body{
+    @include gradientBase();
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    max-width:var(--screenwidth);
+    margin:0 auto;
+}

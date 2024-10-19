@@ -1,16 +1,17 @@
-
-// base
-@import url(./base/reset.scss);
-@import url(./base/typography.scss);
-
-// components
-@import url(./components/boxesncards.scss);
-@import url(./components/sections.scss);
-
-// Layout
-@import url(./layout/header.scss);
-@import url(./layout/main.scss);
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,600;&display=swap');
 
 // utilities
-@import url(./utilities/mixin.scss);
-@import url(./utilities/variable.scss);
+@import "utilities/mixin.scss";
+@import "utilities/variable.scss";
+
+// base
+@import "base/main.scss";
+@import "base/reset.scss";
+@import "base/typography.scss";
+
+// components
+@import "components/boxesncards.scss";
+@import "components/sections.scss";
+
+// Layout
+@import "layout/header.scss";

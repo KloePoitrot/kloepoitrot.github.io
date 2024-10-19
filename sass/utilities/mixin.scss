@@ -1,0 +1,14 @@
+// base
+@mixin gradientBase {
+    background: linear-gradient(130deg, var(--gradient1) 0%, var(--gradient2) 50%, var(--gradient3) 100%);
+    background-attachment: fixed;
+}
+
+// simple animation
+@mixin btnAnim($trigger) {
+    @if $trigger == start {
+        transition: ease-out .05s;
+    } @else {
+        transition: ease-in .3s;
+    }
+}
