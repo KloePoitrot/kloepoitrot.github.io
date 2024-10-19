@@ -8,8 +8,13 @@
     &-img {
         height: 200px;
         object-fit: cover;
+        &:hover{
+            filter: grayscale(100%);
+            z-index:0
+        }
     }
     &-category{
+        z-index:1;
         margin:-1.5rem .5rem -1rem .5rem;
         display: flex;
         gap:.25rem;
@@ -22,6 +27,7 @@
     }
     &-content{
         padding:0 1rem;
+        flex:1;
         &-title{
             color:var(--gradient3);
         }
@@ -34,7 +40,10 @@
 }
 
 .visitButton{
-    & p{
+    display: flex;
+    gap:.75rem;
+    & a{
+        flex:1;
         background:var(--gradient3);
         color:var(--main);
         padding:.5rem 1rem;

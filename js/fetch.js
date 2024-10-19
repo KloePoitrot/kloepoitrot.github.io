@@ -21,21 +21,24 @@ function displayRepos(data){
             `
         }
 
+        let links = `<a href="` + data[i].repo + `">Repo</a>`
+        if (data[i].gitpage){
+            links += `<a href="` + data[i].gitpage + `">Gitpage</a>` 
+        }
+
         workSection.innerHTML += `
             <article class="card card-grey" data-id="` + data[i].id + `">
-                    <a href="` + data[i].link + `">
-                        <img class="work-img" src="` + data[i].img + `" alt="bannière de ` + data[i].title + `">
-                        <div class=" work-category">`
-                            + categories +
-                        `</div>
-                        <div class="work-content">
-                            <h3 class="work-content-title">` + data[i].title + `</h3>
-                            <p class="work-content-text">` + data[i].description + `</p>
-                        </div>
-                        <div class="visitButton">
-                            <p>Visiter</p>
-                        </div>
-                    </a>
+                    <img class="work-img" src="` + data[i].img + `"alt="bannière de ` + data[i].title + `">
+                    <div class=" work-category">`
+                        + categories +
+                    `</div>
+                    <div class="work-content">
+                        <h3 class="work-content-title">` + data[i].title + `</h3>
+                        <p class="work-content-text">` + data[i].description+ `</p>
+                    </div>
+                    <div class="visitButton">
+                        ` + links + `
+                    </div>
                 </article>`
     }
 }

@@ -43,13 +43,11 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   padding: 1rem;
   height: auto;
   transition: ease-in 0.3s;
-}
-.card a {
-  color: #000;
-  text-decoration: none;
 }
 .card:hover {
   transition: ease-out 0.05s;
@@ -58,10 +56,6 @@ body {
   background: var(--second);
   background-color: var(--second);
   box-shadow: inset var(--shadow);
-}
-.card-grey:hover {
-  box-shadow: none;
-  background: var(--main);
 }
 .card-white {
   background: var(--second);
@@ -187,7 +181,12 @@ body {
   height: 200px;
   object-fit: cover;
 }
+.work-img:hover {
+  filter: grayscale(100%);
+  z-index: 0;
+}
 .work-category {
+  z-index: 1;
   margin: -1.5rem 0.5rem -1rem 0.5rem;
   display: flex;
   gap: 0.25rem;
@@ -200,6 +199,7 @@ body {
 }
 .work-content {
   padding: 0 1rem;
+  flex: 1;
 }
 .work-content-title {
   color: var(--gradient3);
@@ -210,7 +210,12 @@ body {
   scrollbar-width: none;
 }
 
-.visitButton p {
+.visitButton {
+  display: flex;
+  gap: 0.75rem;
+}
+.visitButton a {
+  flex: 1;
   background: var(--gradient3);
   color: var(--main);
   padding: 0.5rem 1rem;
@@ -219,7 +224,7 @@ body {
   margin: 0;
   transition: ease-in 0.3s;
 }
-.visitButton p:hover {
+.visitButton a:hover {
   background: var(--gradient1);
   transition: ease-out 0.05s;
 }
