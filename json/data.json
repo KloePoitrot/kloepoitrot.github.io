@@ -17,7 +17,7 @@
                 "id": 1,
                 "title": "Kasa",
                 "description": "Projet du parcours Integrateur Web de OpenClassrooms",
-                "img": "../img/kasa.png",
+                "img": "../img/Kasa.png",
                 "repo": "https://github.com/KloePoitrot/JS-RockPaperScissors",
                 "gitpage": "https://kloepoitrot.github.io/JS-RockPaperScissors/",
                 "category": [
@@ -41,7 +41,7 @@
                 "id": 3,
                 "title": "Countdown",
                 "description": "[Page en anglais] - Une solution pour le 'Launch countdown timer challenge' de Frontend Mentor",
-                "img": "../img/countdown.png",
+                "img": "../img/Countdown.png",
                 "repo": "https://github.com/KloePoitrot/Countdown",
                 "gitpage": "https://kloepoitrot.github.io/Countdown/",
                 "category": [
