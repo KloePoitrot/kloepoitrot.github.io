@@ -178,6 +178,11 @@ body {
   order: 1;
 }
 
+footer.section {
+  padding: 1rem;
+  width: calc(100% - 2rem);
+}
+
 .title {
   display: flex;
   align-items: center;
