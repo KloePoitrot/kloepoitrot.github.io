@@ -2,6 +2,7 @@
     padding:4rem;
     &-white {
         background:var(--main);
+        box-shadow: var(--shadow);
         .title-text{
             color:var(--gradient1);
         }

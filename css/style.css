@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,600;&display=swap");
 :root {
   --main:#fff;
-  --second:#e0e0e0;
+  --second:#ecebf1;
   /* Background */
   --gradient1:#9A8D85;
   --gradient2:#6B7D81;
+  --gradient2lighter:#89999A;
   --gradient3:#494952;
   /* shadow */
   --shadow:3px 3px 8px rgba(0, 0, 0, 0.4) ;
@@ -79,17 +80,6 @@ body {
   flex-direction: column;
   padding: 1rem;
   height: auto;
-  transition: ease-in 0.3s;
-}
-.card:hover {
-  transition: ease-out 0.05s;
-}
-.card-grey {
-  background: var(--second);
-  background-color: var(--second);
-  box-shadow: inset var(--shadow);
-}
-.card-white {
   background: var(--second);
   box-shadow: var(--shadow);
 }
@@ -99,6 +89,7 @@ body {
 }
 .section-white {
   background: var(--main);
+  box-shadow: var(--shadow);
 }
 .section-white .title-text {
   color: var(--gradient1);
@@ -257,8 +248,8 @@ body {
 .work-category-btn {
   font-size: 0.75rem;
   padding: 0.25rem 0.5rem;
-  background: var(--gradient2);
-  color: var(--main);
+  background: var(--gradient2lighter);
+  color: 3000;
 }
 .work-content {
   padding: 0 1rem;

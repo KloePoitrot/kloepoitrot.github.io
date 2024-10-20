@@ -3,18 +3,7 @@
     flex-direction: column;
     padding: 1rem;
     height: auto;
-    @include btnAnim(end);
-    &:hover{
-        @include btnAnim(start);
-    }
-    &-grey{
-        background: var(--second);
-        background-color: var(--second);
-        box-shadow: inset var(--shadow);
-    }
+    background: var(--second);
+    box-shadow: var(--shadow);
     
-    &-white{
-        background: var(--second);
-        box-shadow: var(--shadow);
-    }
 }
