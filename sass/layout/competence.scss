@@ -3,6 +3,12 @@
     flex-wrap: wrap;
     column-gap:1rem;
     margin-bottom:1rem;
+    &-flex{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
 }
 .competence{
     display: flex;

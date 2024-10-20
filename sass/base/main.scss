@@ -12,3 +12,17 @@ body{
     display:grid;
     gap:2rem
 }
+.text-higlight{
+    font-weight: 600;
+}
+
+a{
+    color: var(--gradient3);
+    font-weight: 600;
+    text-decoration: none;
+    @include btnAnim(end);
+    &:hover{
+        color: var(--gradient1);
+        @include btnAnim(start)
+    }
+}
