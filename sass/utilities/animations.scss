@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.section-transparent .max-width{
+    @include slideIn(left);
+}
+
+.section-white .max-width{
+    @include slideIn(right);
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+

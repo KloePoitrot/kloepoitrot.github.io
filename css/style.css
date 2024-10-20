@@ -1,4 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,600;&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+.section-transparent .max-width {
+  animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-delay: 0.25s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.section-white .max-width {
+  animation-name: slideInRight;
+  animation-duration: 1s;
+  animation-delay: 0.25s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
 :root {
   --main:#fff;
   --second:#ecebf1;
@@ -34,6 +74,7 @@ ul {
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 body {
@@ -232,7 +273,6 @@ body {
 
 .work-img {
   height: 200px;
-  object-fit: cover;
   transition: ease-in 0.3s;
 }
 .work-img:hover {

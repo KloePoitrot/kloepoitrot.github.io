@@ -12,3 +12,21 @@
         transition: ease-in .3s;
     }
 }
+
+// Slide mixins
+@mixin slideIn($direction) {
+    @if $direction == left{
+        animation-name: slideInLeft;
+        animation-duration: 1s;
+        animation-delay: .25s;
+        opacity: 0;
+        animation-fill-mode: forwards
+    }
+    @if $direction == right{
+        animation-name: slideInRight;
+        animation-duration: 1s;
+        animation-delay: .25s;
+        opacity: 0;
+        animation-fill-mode: forwards
+    }
+}
