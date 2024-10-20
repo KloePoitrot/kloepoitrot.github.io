@@ -129,6 +129,8 @@ body {
   padding: 4rem;
 }
 .section-white {
+  width: calc(100% - 8rem);
+  overflow: hidden;
   background: var(--main);
   box-shadow: var(--shadow);
 }
