@@ -50,6 +50,17 @@
             },
             {
                 "id": 4,
+                "title": "Chat app",
+                "description": "[Page en anglais] - Une solution pour le 'Chat app CSS Illustration' de Frontend Mentor",
+                "img": "../img/chatapp.png",
+                "repo": "https://github.com/KloePoitrot/Chat-app-CSS-illustration",
+                "gitpage": "https://kloepoitrot.github.io/Chat-app-CSS-illustration/",
+                "category": [
+                    "HTML/CSS"
+                ]
+            },
+            {
+                "id": 5,
                 "title": "Pokedex",
                 "description": "Un pokedex codé sous python a compléter soi-même! Le logiciel possède déja 6 pokémons.",
                 "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/640px-International_Pok%C3%A9mon_logo.svg.png",
