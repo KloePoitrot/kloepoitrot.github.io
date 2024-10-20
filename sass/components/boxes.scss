@@ -12,7 +12,7 @@
         }
         &-left{
             border-left: 2.5rem solid var(--gradient1);
-                @include btnAnim(end);
+            @include btnAnim(end);
             &:hover{
                 border-left: 2.5rem solid var(--gradient2);
                 @include btnAnim(start);

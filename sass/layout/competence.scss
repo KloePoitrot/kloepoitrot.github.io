@@ -1,7 +1,8 @@
 .competences{
     display: flex;
     flex-wrap: wrap;
-    column-gap:1rem;
+    gap: 1rem;
+    justify-content: center;
     margin-bottom:1rem;
     &-flex{
         display: flex;
@@ -23,8 +24,4 @@
         justify-content: center;
         color:var(--gradient2);
     }
-}
-
-.box-color-right .competences{
-    justify-content: flex-end;
 }

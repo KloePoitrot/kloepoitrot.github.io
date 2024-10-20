@@ -1,0 +1,79 @@
+@media  (max-width:787px) {
+    // header
+    .header{
+        padding:1rem .5rem;
+        background:var(--gradient3);
+        .header-nav{
+            justify-content: center;
+            display: flex;
+            gap: .5rem;
+            margin:  0;
+        }
+        .header-link{
+            padding:0rem;
+            background:transparent;
+            color:var(--main);
+            border-bottom:none;
+            box-shadow:none;
+            &:hover{
+                border-bottom:3px solid var(--main);
+                padding-bottom:calc(.5rem + 6px);
+                background: transparent;
+                color:var(--main);
+            }
+        }
+    }
+
+    // sections
+    .section{
+        padding:4rem 1.5rem;
+        &-white {
+            width:calc(100% - 3rem);
+        }
+    }
+    .title{
+        margin-bottom:1rem;
+        &-text{
+            font-size:1.75rem;
+            letter-spacing: 2px;
+            margin: 0.5rem;
+        }
+        &-decoration{
+            height: 5px;
+            margin: 0.5rem;
+        }
+    }
+    // about
+    .about{
+        flex-direction: column;
+        gap:0rem;
+        img{
+            width:100%
+        }
+        .box{
+            width:100%;
+        }
+    }
+    
+    // work
+    .works{
+        grid-template-columns: repeat(1, 1fr);
+        gap:1.5rem;
+    }
+    .work{
+        &-content{
+            &-text{
+                height:auto;
+                overflow-y: none;
+            }
+        }
+    }
+
+    // competence
+    .competences-flex{
+        display: block;
+    }
+    .box-color-title{
+        text-align: center!important;
+    }
+}
