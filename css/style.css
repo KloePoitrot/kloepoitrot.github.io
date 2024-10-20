@@ -299,6 +299,30 @@ body {
   transition: ease-out 0.05s;
 }
 
+.pseudo-header {
+  background: var(--main);
+  padding: 1rem;
+  position: relative;
+  z-index: 3;
+  border-bottom: 1px solid var(--gradient1);
+}
+.pseudo-header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.pseudo-header-logo {
+  font-size: 3rem;
+  color: var(--gradient1);
+}
+.pseudo-header-title {
+  margin: 0;
+}
+.pseudo-header-text {
+  margin: 0;
+}
+
 .works {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

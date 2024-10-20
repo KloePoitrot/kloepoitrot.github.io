@@ -28,3 +28,27 @@
         }
     }
 }
+
+.pseudo-header{
+    background:var(--main);
+    padding:1rem;
+    position: relative;
+    z-index:3;
+    border-bottom:1px solid var(--gradient1);
+    &-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:1rem;
+    }
+    &-logo{
+        font-size:3rem;
+        color:var(--gradient1)
+    }
+    &-title{
+        margin:0
+    }
+    &-text{
+        margin:0
+    }
+}
