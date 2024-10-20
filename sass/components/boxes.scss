@@ -31,3 +31,13 @@
         }
     }
 }
+
+.section-transparent{
+    .box{
+        &-title{
+            text-align: center;
+            color:var(--main);
+            margin:0 0 1rem 0
+        }
+    }
+}

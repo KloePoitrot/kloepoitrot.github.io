@@ -7,3 +7,9 @@
     box-shadow: var(--shadow);
     
 }
+.section-transparent{
+    .card{
+        background:var(--main);
+        border-bottom:1rem solid var(--gradient1);
+    }
+}

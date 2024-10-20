@@ -131,6 +131,12 @@ body {
   transition: ease-out 0.05s;
 }
 
+.section-transparent .box-title {
+  text-align: center;
+  color: var(--main);
+  margin: 0 0 1rem 0;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -138,6 +144,11 @@ body {
   height: auto;
   background: var(--second);
   box-shadow: var(--shadow);
+}
+
+.section-transparent .card {
+  background: var(--main);
+  border-bottom: 1rem solid var(--gradient1);
 }
 
 .section {
@@ -210,6 +221,9 @@ body {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+}
+.competences-flex .box:nth-child(1) {
+  flex: 1 0 100%;
 }
 
 .competence {
@@ -389,7 +403,6 @@ body {
   }
   .header .header-nav {
     justify-content: center;
-    display: flex;
     gap: 0.5rem;
     margin: 0;
   }
@@ -407,7 +420,7 @@ body {
     color: var(--main);
   }
   .section {
-    padding: 4rem 1.5rem;
+    padding: 3rem 1.5rem;
   }
   .section-white {
     width: calc(100% - 3rem);
@@ -441,9 +454,6 @@ body {
   .work-content-text {
     height: auto;
     overflow-y: none;
-  }
-  .competences-flex {
-    display: block;
   }
   .box-color-title {
     text-align: center !important;
