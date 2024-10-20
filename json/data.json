@@ -65,31 +65,31 @@
                 "developpment": [
                     {
                         "id":0,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/dev/htmlcss.png",
                         "title": "HTML/CSS",
                         "rating": 5
                     },
                     {
                         "id":1,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/dev/JavaScript-logo.png",
                         "title": "Javascript",
                         "rating": 4
                     },
                     {
                         "id":2,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/dev/reactLogo.png",
                         "title": "React + Vite",
                         "rating": 4
                     },
                     {
                         "id":3,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/dev/python.webp",
                         "title": "Python",
                         "rating": 3
                     },
                     {
                         "id":4,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/dev/phplogo.webp",
                         "title": "PHP",
                         "rating": 2
                     }
@@ -97,19 +97,19 @@
                 "design": [
                     {
                         "id":0,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/design/CSPLogo.png",
                         "title": "Clip Studio Paint",
                         "rating": 5
                     },
                     {
                         "id":1,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/design/ps.png",
                         "title": "Photoshop",
                         "rating": 4
                     },
                     {
                         "id":2,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/design/Figma.webp",
                         "title": "Figma",
                         "rating": 4
                     }
@@ -117,20 +117,20 @@
                 "autre": [
                     {
                         "id":0,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/other/Github.png",
                         "title": "Github",
                         "rating": 4
                     },
                     
                     {
                         "id":1,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/other/Trello.png",
                         "title": "Trello",
                         "rating": 4
                     },
                     {
                         "id":2,
-                        "img": "../img/competenceIcon/ps.png",
+                        "img": "../img/competenceIcon/other/Notion.png",
                         "title": "Notion",
                         "rating": 3
                     }

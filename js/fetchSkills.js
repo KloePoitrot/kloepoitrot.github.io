@@ -23,7 +23,7 @@ function displaySkills(data){
         }
 
         devSkillsSection.innerHTML += `<div class="competence card card-grey" data-skill-id="` + data[0].developpment[i].id + `">
-                            <img class="competence-img" src="` + data[0].developpment[i].img + `" alt="test logo">
+                            <img class="competence-img" src="` + data[0].developpment[i].img + `" alt="logo ` + data[0].developpment[i].title + `">
                             <p class="box-color-title">` + data[0].developpment[i].title + `</p>
                             <div class="competence-rate">`
                             + rating +
@@ -43,7 +43,7 @@ function displaySkills(data){
         }
 
         designSkillsSection.innerHTML += `<div class="competence card card-grey" data-skill-id="` + data[0].design[i].id + `">
-                            <img class="competence-img" src="` + data[0].design[i].img + `" alt="test logo">
+                            <img class="competence-img" src="` + data[0].design[i].img + `" alt="logo ` + data[0].design[i].title + `">
                             <p class="box-color-title">` + data[0].design[i].title + `</p>
                             <div class="competence-rate">`
                             + rating +
@@ -64,7 +64,7 @@ function displaySkills(data){
         }
 
         otherSkillsSection.innerHTML += `<div class="competence card card-grey" data-skill-id="` + data[0].autre[i].id + `">
-                            <img class="competence-img" src="` + data[0].autre[i].img + `" alt="test logo">
+                            <img class="competence-img" src="` + data[0].autre[i].img + `" alt="logo ` + data[0].autre[i].title + `">
                             <p class="box-color-title">` + data[0].autre[i].title + `</p>
                             <div class="competence-rate">`
                             + rating +
