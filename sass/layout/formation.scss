@@ -1,0 +1,26 @@
+.formation{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    img{
+        width:auto;
+        height:150px;
+    }
+    &-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &-title{
+            color:var(--gradient2);
+            font-size:1.75rem;
+            margin:0
+        }
+        &-date{
+            font-weight:600;
+            margin:10px 20px
+        }
+        &-desc{
+            margin:10px 0 0 0 
+        }
+    }
+}

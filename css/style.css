@@ -175,6 +175,33 @@ body {
   justify-content: flex-end;
 }
 
+.formation {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.formation img {
+  width: auto;
+  height: 150px;
+}
+.formation-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formation-info-title {
+  color: var(--gradient2);
+  font-size: 1.75rem;
+  margin: 0;
+}
+.formation-info-date {
+  font-weight: 600;
+  margin: 10px 20px;
+}
+.formation-info-desc {
+  margin: 10px 0 0 0;
+}
+
 .header {
   position: sticky;
   top: 0;
