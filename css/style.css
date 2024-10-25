@@ -353,7 +353,6 @@ footer.section {
   font-size: 0.75rem;
   padding: 0.25rem 0.5rem;
   background: var(--gradient2lighter);
-  color: 3000;
 }
 .work-content {
   padding: 0 1rem;
@@ -482,7 +481,7 @@ footer.section {
   }
   .work-content-text {
     height: auto;
-    overflow-y: none;
+    overflow-y: unset;
   }
   .box-color-title {
     text-align: center !important;
