@@ -4,7 +4,7 @@
             {
                 "id": 0,
                 "title": "Dream Fragment",
-                "description": "[En cours de dev] - Dream fragment est un logiciel de worldbuilding et storytelling. Il a été créer pour répondre a mes propre besoin d'organisation.",
+                "description": "[En cours de dev] - Dream fragment est un logiciel de worldbuilding et storytelling. Il a été créé pour répondre à mes propres besoins d'organisation.",
                 "img": "https://file.garden/ZXTbhWHNBXlcqhP2/Toyhou.se%20assets/Illustration1.png",
                 "repo": "https://github.com/KloePoitrot/ELECTRON-REACT-Dream-Fragments",
                 "category": [
@@ -16,7 +16,7 @@
             {
                 "id": 1,
                 "title": "Kasa",
-                "description": "Projet du parcours Integrateur Web de OpenClassrooms",
+                "description": "Projet du parcours Intégrateur Web de OpenClassrooms",
                 "img": "../img/Kasa.png",
                 "repo": "https://github.com/KloePoitrot/REACT-Kasa",
                 "category": [
@@ -27,7 +27,7 @@
             {
                 "id": 2,
                 "title": "Rock, Paper Scissors!",
-                "description": "[Site en Anglais] - Petit projet fait sous javascript. Ce site vous permet de jouer a ''Pierre, Feuille, Ciseaux!'' accompagné de sons et d'une possiblité d'enregistrer votre score! Vous pouvez choisir le nombre de points par partie, et également jouer contre un bot, ou avec un ami!",
+                "description": "[Site en Anglais] - Petit projet fait sous javascript. Ce site vous permet de jouer à ''Pièrre, Feuille, Ciseaux!'' accompagné de sons et d'une possibilité  d'enregistrer votre score! Vous pouvez choisir le nombre de points par partie, et également jouer contre un bot, ou avec un ami!",
                 "img": "../img/RPCimg.png",
                 "repo": "https://github.com/KloePoitrot/JS-RockPaperScissors",
                 "gitpage": "https://kloepoitrot.github.io/JS-RockPaperScissors/",
@@ -62,7 +62,7 @@
             {
                 "id": 5,
                 "title": "Pokedex",
-                "description": "Un pokedex codé sous python a compléter soi-même! Le logiciel possède déja 6 pokémons.",
+                "description": "Un pokedex codé sous python a compléter soi-même! Le logiciel possède déjà 6 pokémons.",
                 "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/640px-International_Pok%C3%A9mon_logo.svg.png",
                 "repo": "https://github.com/KloePoitrot/PYTHON-Pokedex",
                 "category": [
