@@ -1,25 +1,25 @@
 // utilities
-@import "utilities/mixin.scss";
-@import "utilities/animations.scss";
-@import "utilities/variable.scss";
+@import "utilities/_mixin.scss";
+@import "utilities/_animations.scss";
+@import "utilities/_variable.scss";
 
 // base
-@import "base/main.scss";
-@import "base/reset.scss";
-@import "base/typography.scss";
+@import "base/_main.scss";
+@import "base/_reset.scss";
+@import "base/_typography.scss";
 
 // components
-@import "components/boxes.scss";
-@import "components/cards.scss";
-@import "components/sections.scss";
+@import "components/_boxes.scss";
+@import "components/_cards.scss";
+@import "components/_sections.scss";
 
 // Layout
-@import "layout/about.scss";
-@import "layout/competence.scss";
-@import "layout/formation.scss";
-@import "layout/header.scss";
-@import "layout/work.scss";
+@import "layout/_about.scss";
+@import "layout/_competence.scss";
+@import "layout/_formation.scss";
+@import "layout/_header.scss";
+@import "layout/_work.scss";
 
 //responsive
-@import "responsive/tablet.scss";
-@import "responsive/mobile.scss";
+@import "responsive/_tablet.scss";
+@import "responsive/_mobile.scss";
