@@ -3,14 +3,13 @@
         [
             {
                 "id": 0,
-                "title": "Dream Fragment",
-                "description": "[En cours de dev] - Dream fragment est un logiciel de worldbuilding et storytelling. Il a été créé pour répondre à mes propres besoins d'organisation.",
-                "img": "https://file.garden/ZXTbhWHNBXlcqhP2/Toyhou.se%20assets/Illustration1.png",
-                "repo": "https://github.com/KloePoitrot/ELECTRON-REACT-Dream-Fragments",
+                "title": "Oraculus",
+                "description": "Petit projet React",
+                "img": "../img/Oraculus.png",
+                "repo": "https://github.com/KloePoitrot/REACT-oraculus",
                 "category": [
-                    "react", 
-                    "electron",
-                    "design"
+                    "HTML/CSS", 
+                    "React"
                 ]
             },
             {
