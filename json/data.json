@@ -8,8 +8,8 @@
                 "img": "../img/Oraculus.png",
                 "repo": "https://github.com/KloePoitrot/REACT-oraculus",
                 "category": [
-                    "HTML/CSS", 
-                    "React"
+                    "React",
+                    "HTML/CSS"
                 ]
             },
             {
@@ -19,8 +19,8 @@
                 "img": "../img/Kasa.png",
                 "repo": "https://github.com/KloePoitrot/REACT-Kasa",
                 "category": [
-                    "HTML/CSS",
-                    "React"
+                    "React",
+                    "HTML/CSS"
                 ]
             },
             {
